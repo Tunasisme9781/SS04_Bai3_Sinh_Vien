@@ -38,4 +38,5 @@ from students where major = 'CNTT' order by gpa desc, full_name asc;
 --7a
 select full_name from students where full_name ilike 'Nguyễn%';
 
+--8a
 select full_name,birth_year from students where birth_year between 2001 and 2003;
